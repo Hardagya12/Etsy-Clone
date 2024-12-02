@@ -1,67 +1,71 @@
-
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Graphik', sans-serif;
+    
 }
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-#navbar {
+header{
+    
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #ddd;
-    padding: 10px 15px; /* Reduced padding */
-    z-index: 1000;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-left: 20px;
+    height: 38px;
+    
+    
+    border: none;
 }
-
-
-#logo img {
-    height: 40px;
+#category{
+    background-color: transparent;
+    border: none;
+    /* height: 33px;
+    width: 100px; */
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    
+   
 }
+#searchbar{
+    padding-left: 18px;
+    background-color: transparent;
+    height: 48px;
+    width: 730px;
+    border-radius: 30px;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    
 
-#categories {
+}
+#signin{
+    background-color: transparent;
+    height: 33px;
+    width: 100px;
+    border: none;
+    
+}
+/* header2 */
+#header2{
+    background-color: transparent;
     display: flex;
-    align-items: center;
-    gap: 5px; /* Reduced gap between icon and text */
-}
-
-#categories img {
+    justify-content: space-evenly;
+    width: 700px;
     height: 20px;
+    
+   
+    
 }
+#header2 a{
+    border: none;
+    text-decoration: none;
+    color: #222222;
 
-#search-bar input {
-    height: 35px;
-    width: 300px; /* Increased width */
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    padding: 0 15px;
-    font-size: 14px;
+    font-weight: 550;
+    font-size: 12px;
 }
+/* header 2 end  */
 
-#sign-in button {
-    padding: 8px 15px;
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-}
 
-#icons {
-    display: flex;
-    align-items: left;
-    gap: 20px; /* Reduced gap between icons */
-}
-
-#icons img {
-    height: 24px;
-    width: 24px; /* Consistent size for icons */
-}
