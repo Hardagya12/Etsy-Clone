@@ -1,6 +1,2 @@
-const logo = document.getElementById('logo img ');
+const 
 
-// reload the page whenn clicked
-logo.addEventListener('click', () => {
-    window.location.reload();
-});
