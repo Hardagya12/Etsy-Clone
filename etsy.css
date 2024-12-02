@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 15px; /* Reduced padding */
+    z-index: 1000;
+}
+
+
+#logo img {
+    height: 40px;
+}
+
+#categories {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Reduced gap between icon and text */
+}
+
+#categories img {
+    height: 20px;
+}
+
+#search-bar input {
+    height: 35px;
+    width: 300px; /* Increased width */
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+#sign-in button {
+    padding: 8px 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#icons {
+    display: flex;
+    align-items: left;
+    gap: 20px; /* Reduced gap between icons */
+}
+
+#icons img {
+    height: 24px;
+    width: 24px; /* Consistent size for icons */
+}
