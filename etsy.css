@@ -205,7 +205,7 @@ header{
     flex: 1;
 }
 
-.subscribe-btn {
+.subscribe_btn {
     padding: 10px 15px;
     border: 1px solid #ccc;
     border-radius: 0 20px 20px 0;
