@@ -114,12 +114,19 @@ header{
 .image-box img {
     max-width: 100%; 
     height: auto;
+    border-radius: 10%;
+    transition: transform 0.3s ease-in-out;
 }
 
 .image-box p {
     margin-top: 10px; 
     font-size: 14px;
     color: #333;
+    transition: transform 0.3s ease-in-out;
+}
+.image-box:hover img ,p {
+    transform: scale(1.1);
+
 }
 /* About Etsy section */
 *{
